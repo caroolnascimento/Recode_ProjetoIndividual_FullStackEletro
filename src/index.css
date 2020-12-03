@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+.container {
+    text-align: center;
+}
+
+.menunav {
+    background-color: rgb(230, 25, 25);  
+   
+  }
+
+.categorias li:hover { 
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+
+/* INÍCIO Produtos*/
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 230px;
+    margin-top: -200px;
+}
+
+.box_produtos {
+    display:inline-block;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 250px;
+    height: 350px; 
+}
+
+.box_produtos p {
+    width: 350px;
+}
+
+.imgs {
+    width: 120px;
+}
+
+/*  FIM Produtos*/
+
+
+/* INÍCIO Nossas Lojas */
+
+.enderecos {
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px; 
+    padding: 90px;
+}
+/*  FIM Nossas Lojas */
+
+
+/* INÍCIO Fale Conosco */
+
+
+.logo {
+    width:40px
+}
+
+/* FIM Fale Conosco */
+
+
